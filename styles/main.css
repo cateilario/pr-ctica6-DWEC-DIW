@@ -74,12 +74,6 @@ a {
 .nav-list li:hover {
   transform: scale(1.1);
 }
-.nav-list li a:hover {
-  color: #daa94e;
-}
-.nav-list li:hover {
-  transform: scale(1.1);
-}
 
 .open-menu,
 .close-menu {
@@ -124,7 +118,6 @@ a {
   text-align: center;
 }
 .hero-body h1 {
-  font-size: 3rem;
   font-size: 3rem;
   font-weight: 600;
   letter-spacing: 1.5px;
@@ -256,8 +249,6 @@ a {
 .gallery-container {
   width: 100%;
   padding: 0 4rem;
-  width: 100%;
-  padding: 0 4rem;
 }
 
 .img-gallery {
@@ -265,15 +256,11 @@ a {
   grid-template-columns: repeat(5, 1fr);
   justify-content: center;
   align-items: center;
-  justify-content: center;
-  align-items: center;
   gap: 1.5rem;
 }
 .img-gallery picture img {
   object-fit: cover;
   cursor: pointer;
-  display: block;
-  width: 100%;
   display: block;
   width: 100%;
 }
@@ -571,7 +558,8 @@ body.dark {
 .dark h1,
 .dark p,
 .dark .bi-instagram,
-.dark .bi-whatsapp {
+.dark .bi-whatsapp,
+.dark .bi-list {
   color: white !important;
 }
 .dark .contact-info p {
@@ -727,7 +715,6 @@ body.dark {
     padding: 1.5rem;
   }
   .modal-img img {
-    max-height: 90vh;
     max-width: 90%;
   }
   .contact-title {

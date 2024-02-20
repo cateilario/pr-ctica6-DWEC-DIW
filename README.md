@@ -1,4 +1,4 @@
-# Práctica 5 - Diseño Web Responsive con formulario de contacto
+# Práctica 6 - Diseño Web Responsive ampliado con video y galería de imágenes
 
 **author**: Caterina Ilario
 
