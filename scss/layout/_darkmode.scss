@@ -20,7 +20,7 @@ body.dark {
     }
 }
 
-.checkbox {
+.cb-darkmode {
     opacity: 0;
     position: absolute;
 }
@@ -51,7 +51,7 @@ body.dark {
     }
 }
 
-.checkbox:checked+.label .ball {
+.cb-darkmode:checked+.label .ball {
     transform: translateX(24px);
 }
 
