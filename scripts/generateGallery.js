@@ -21,7 +21,6 @@ function showImage(id) {
             <img loading="lazy" src="assets/imgs/thumb/${id}.jpg">
             `;
 
-
   // Crear el modal
   const modalImg = document.createElement("div");
   const modalControls = document.createElement("div");
@@ -39,7 +38,7 @@ function showImage(id) {
   prevButton.innerHTML = '<i class="bi bi-arrow-left"></i>';
   prevButton.classList.add("modal-btn");
 
-  prevButton.onclick = function() {
+  prevButton.onclick = function () {
     showPrevImage(id);
   };
 
@@ -48,13 +47,12 @@ function showImage(id) {
   nextButton.innerHTML = '<i class="bi bi-arrow-right"></i>';
   nextButton.classList.add("modal-btn");
 
-  nextButton.onclick = function() {
+  nextButton.onclick = function () {
     showNextImage(id);
   };
 
   // Botón para cerrar modal
   const closeModalBtn = document.createElement("button");
-  // closeModalBtn.textContent = "x";
   closeModalBtn.innerHTML = '<i class="bi bi-x-lg"></i>';
   closeModalBtn.classList.add("modal-btn");
 
@@ -63,7 +61,7 @@ function showImage(id) {
     body.classList.remove("body-fixed");
     modalImg.remove();
   };
-  
+
   modalImg.appendChild(modalControls);
   modalControls.appendChild(prevButton);
   modalControls.appendChild(image);
@@ -75,14 +73,13 @@ function showImage(id) {
   body.appendChild(modalImg);
   body.classList.add("body-fixed");
 
-function showNextImage(currentId) {
-  const nextId = (currentId % 15) + 1;
-  showImage(nextId);
-}
+  function showNextImage(currentId) {
+    const nextId = (currentId % 15) + 1;
+    showImage(nextId);
+  }
 
-function showPrevImage(currentId) {
-  const prevId = (currentId - 2 + 15) % 15 + 1;
-  showImage(prevId);
+  function showPrevImage(currentId) {
+    const prevId = ((currentId - 2 + 15) % 15) + 1;
+    showImage(prevId);
+  }
 }
-
-};

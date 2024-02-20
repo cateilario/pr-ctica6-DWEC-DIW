@@ -7,7 +7,6 @@
         font-size: 2rem;
         background-color: transparent;
         cursor: pointer;
-        padding: 2rem;
     }
 
     .close-menu {
@@ -75,6 +74,10 @@
                 }
             }
         }
+
+        div{
+            margin-right: 3rem;
+        }
     }
 
     .hero-1 {
@@ -123,8 +126,8 @@
 
     .modal-img {
         img {
-            max-height: 60vh;
-            max-width: 70%;
+            max-height: 90vh;
+            max-width: 90%;
         }
 
         padding: 1.5rem;
@@ -188,23 +191,9 @@
     .img-gallery {
         grid-template-columns: repeat(3, 1fr);
     }
-
-    .modal-img {
-        img {
-            max-height: 80vh;
-            max-width: 80%;
-        }
-
-        padding: 2rem;
-    }
 }
 
 @media (width <=600px) {
-    .modal-img img {
-        max-width: 80%;
-        max-height: 80vh;
-    }
-
     .modal-btn {
         font-size: .8rem;
         padding: .8rem .9rem;
@@ -219,6 +208,14 @@
                 font-size: .8rem;
             }
         }
+
+    .contact-btn {
+        width: 50%;
+        margin: auto;
+        padding: .5rem 2rem;
+        font-size: 1rem;
+        cursor: pointer;
+        }
 }
 
 @media (width < 440px) {
@@ -232,9 +229,18 @@
     }
 }
 
-@media (width <=360px) {
+@media (width <=385px) {
     iframe {
-        width: 220px;
+        width: 200px;
         height: 150px;
     }
+
+    .contact-info{
+        font-size: .7rem;
+    }
+
+        .cb-lb {
+            font-size: .5rem;
+            margin-left: .4rem;
+        }
 }
