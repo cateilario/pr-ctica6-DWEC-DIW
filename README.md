@@ -1,5 +1,5 @@
 # Práctica 5 - Diseño Web Responsive con formulario de contacto
 
-**author**: Caterina Ilario 
+**author**: Caterina Ilario
 
-**github**: https://github.com/cateilario/practica5-DWEC-DIW.git
+**github**: https://github.com/cateilario/practica6-DWEC-DIW.git
