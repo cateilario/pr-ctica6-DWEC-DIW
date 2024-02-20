@@ -6,17 +6,13 @@
     justify-content: space-between;
     max-height: 15vh;
     min-height: 15vh;
-}
-
-.logo {
-    width: 13rem;
+    padding: 0 3.5rem;
 }
 
 .nav-list {
     list-style: none;
     font-size: 1.1rem;
     display: flex;
-    padding: 0 2rem;
 
     li {
         margin-right: 3em;

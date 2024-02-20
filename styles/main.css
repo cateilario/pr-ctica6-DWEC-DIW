@@ -51,17 +51,13 @@ a {
   justify-content: space-between;
   max-height: 15vh;
   min-height: 15vh;
-}
-
-.logo {
-  width: 13rem;
+  padding: 0 3.5rem;
 }
 
 .nav-list {
   list-style: none;
   font-size: 1.1rem;
   display: flex;
-  padding: 0 2rem;
 }
 .nav-list li {
   margin-right: 3em;
@@ -561,7 +557,14 @@ body.dark {
   color: white !important;
 }
 .dark .contact-info p {
-  color: #daa94e;
+  color: #daa94e !important;
+}
+.dark svg path {
+  stroke: #ffffff;
+  stroke-width: 6px;
+}
+.dark .card {
+  box-shadow: 0 4px 9px 0 rgba(184, 183, 183, 0.368);
 }
 
 .cb-darkmode {
