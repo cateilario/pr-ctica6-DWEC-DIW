@@ -41,6 +41,10 @@ p {
   text-wrap: pretty;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav-bar {
   display: flex;
   align-items: center;
@@ -555,6 +559,9 @@ body.dark {
 .dark .bi-instagram,
 .dark .bi-whatsapp {
   color: white !important;
+}
+.dark .contact-info p {
+  color: #daa94e;
 }
 
 .checkbox {
