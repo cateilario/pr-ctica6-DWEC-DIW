@@ -1,0 +1,30 @@
+@use './../base/variables' as v;
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 3rem 3rem 1rem;
+    color: v.$dark-grey;
+    font-size: .8rem;
+}
+
+.map {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.map-info p:first-child {
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: .5px;
+    margin-bottom: .5rem;
+}
+
+.social-media {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}

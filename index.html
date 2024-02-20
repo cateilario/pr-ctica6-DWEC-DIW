@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Diseño Web Responsive</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <header class="nav-bar">
+        <img src="/assets/imgs/logo.png" alt="Logo" class="logo">
+        <button class="open-menu" id="open-nav"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button id="close-nav" class="close-menu"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <div>
+                    <input type="checkbox" class="checkbox" id="switch"/>
+                    <label class="label" for="switch">
+                        <i class="bi bi-sun-fill"></i>
+                        <i class="bi bi-moon-fill"></i>
+                        <div class="ball"></div>
+                    </label>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-container hero-1">
+                <div class="hero-body">
+                    <h1>Descubre la <span>"Città eterna"</span></h1><br><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos reprehenderit expedita adipisci quaerat 
+                    amet vero obcaecati? Laudantium a, adipisci exercitationem minima itaque voluptas sed quam iure odit, eius 
+                    repellat sit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quas minus consequuntur vel debitis corrupti consectetur ab asperiores reprehenderit, voluptate iste quia sunt deserunt quos.</p>
+                </div>
+                <video autoplay muted loop>
+                    <source src="/assets/video/video2.mp4" type="video/mp4">
+                    Video no soportado
+                </video>
+        </section>
+
+        <section class="container" id="services">
+            <header>
+                <h1 class="title">Nuestros servicios</h1>
+                <h2>Elige tu experiencia y contáctanos para más información</h2>
+            </header>
+            <div class="cards-grid">
+                <article class="card">
+                    <img src="/assets/imgs/vaticano.jpg" alt="muestra" class="card-img">
+                    <div class="card-body">
+                        <h3>TOUR</h3>
+                        <h2>Vaticano, Capilla Sixtina y San Pietro</h2>
+                        <p>4 horas</p>
+                        <p>De 60€/persona</p>
+                    </div>
+                    <div class="card-footer ratings" id="ratings"></div>
+                    <div class="overlay">
+                        <a href="#contact" class="btn">¡Reserva ya!</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="/assets/imgs/colosseo.jpg" alt="muestra" class="card-img">
+                    <div class="card-body">
+                        <h3>TOUR</h3>
+                        <h2>Colosseo, Foro Romano y Palatino</h2>
+                        <p>2,5 - 3 horas</p>
+                        <p>De 50€/persona</p>
+                    </div>
+                    <div class="card-footer ratings" id="ratings"></div>
+                    <div class="overlay">
+                        <a href="#contact" class="btn">¡Reserva ya!</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="/assets/imgs/pantheon.jpg" alt="muestra" class="card-img">
+                    <div class="card-body">
+                        <h3>TOUR</h3>
+                        <h2>Centro histórico y sus calles</h2>
+                        <p>2,5 horas</p>
+                        <p>De 40€/persona</p>
+                    </div>
+                    <div class="card-footer ratings" id="ratings"></div>
+                    <div class="overlay">
+                        <a href="#contact" class="btn">¡Reserva ya!</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="/assets/imgs/trevi.jpg" alt="muestra" class="card-img">
+                    <div class="card-body">
+                        <h3>TOUR</h3>
+                        <h2>Secretos subterráneos: Trevi y Piazza Navona</h2>
+                        <p>2,5 horas</p>
+                        <p>De 45€/persona</p>
+                    </div>
+                    <div class="card-footer ratings" id="ratings"></div>
+                    <div class="overlay">
+                        <a href="#contact" class="btn">¡Reserva ya!</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="/assets/imgs/santangelo.jpg" alt="muestra" class="card-img">
+                    <div class="card-body">
+                        <h3>TOUR NOCTURNO</h3>
+                        <h2>Fantasmas y leyendas de Roma</h2>
+                        <p>2 horas</p>
+                        <p>De 40€/persona</p>
+                    </div>
+                    <div class="card-footer ratings" id="ratings"></div>
+                    <div class="overlay">
+                        <a href="#contact" class="btn">¡Reserva ya!</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="/assets/imgs/aranci.jpg" alt="muestra" class="card-img">
+                    <div class="card-body">
+                        <h3>TOUR</h3>
+                        <h2>Giardino degli aranci y miradores secretos</h2>
+                        <p>3 horas</p>
+                        <p>De 40€/persona</p>
+                    </div>
+                    <div class="card-footer ratings" id="ratings"></div>
+                    <div class="overlay">
+                        <a href="#contact" class="btn">¡Reserva ya!</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="/assets/imgs/trastevere.jpeg" alt="muestra" class="card-img">
+                    <div class="card-body">
+                        <h3>EXPERIENCIA</h3>
+                        <h2>Trastevere y aperitivo romano</h2>
+                        <p>4 horas</p>
+                        <p>De 50€/persona</p>
+                    </div>
+                    <div class="card-footer ratings" id="ratings"></div>
+                    <div class="overlay">
+                        <a href="#contact" class="btn">¡Reserva ya!</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="/assets/imgs/carbonara.jpg" alt="muestra" class="card-img">
+                    <div class="card-body">
+                        <h3>WORKSHOP</h3>
+                        <h2>Pasta casera con Aperol Spritz</h2>
+                        <p>3 horas</p>
+                        <p>De 30€/persona</p>
+                    </div>
+                    <div class="card-footer ratings" id="ratings"></div>
+                    <div class="overlay">
+                        <a href="#contact" class="btn">¡Reserva ya!</a>
+                    </div>
+                </article>
+            </div> 
+        </section>
+
+        <section id="gallery" class="container gallery">
+            <header>
+                <h1 class="title">Galería de fotos</h1>
+            </header>
+            <div class="gallery-container">
+                <ul class="img-gallery"></ul>
+            </div>
+        </section>
+
+        <section class="hero-container hero-2" id="contact">
+            <h1 class="contact-title">CONTACTO</h1>
+            <div class="contact-section">
+                <fieldset>
+                    <legend>Rellena el formulario con tus datos y tu solicitud, y nos pondremos en contacto contigo...</legend>
+                    <form action="/templates/submitForm.html" method="get" id="contact-form" autocomplete="off">
+                        <label for="name" class="input-container">
+                            <i class="bi bi-person-fill icon"></i>
+                            <input type="text" id="name" placeholder="Nombre" class="input-field">
+                        </label>
+                        <label for="last-name" class="input-container">
+                            <i class="bi bi-person-fill icon"></i>
+                            <input type="text" id="last-name" placeholder="Apellidos" class="input-field">
+                        </label>
+                        <label for="email" class="input-container">
+                            <i class="bi bi-envelope-at-fill icon"></i>
+                            <input type="email" id="email" placeholder="Correo electrónico" class="input-field">
+                        </label>
+                        <label for="phone" class="input-container">
+                            <input id="phone" type="tel" name="phone" placeholder="Teléfono" class="input-field">
+                        </label>
+                        <label for="message" class="input-container">
+                            <i class="bi bi-chat-left-fill icon"></i>
+                            <textarea name="message" id="message" cols="5" rows="5" placeholder="Mensaje" class="input-field"></textarea>
+                        </label>
+                        <div class="checkbox">
+                            <input type="checkbox" name="policy" id="policy"/>
+                            <label for="policy" class="cb-lb">Acepto política de privacidad y protección de datos</label>
+                        </div>
+                        <button type="submit" id="submit-btn" class="contact-btn">Enviar</button>
+                    </form>
+                </fieldset>
+                <div id="modal-window" class="modal">
+                    <div class="modal-content">
+                        <button class="close" id="close-modal"><i class="bi bi-x modal-icon"></i></button>
+                        <ul id="errors"></ul>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <p>Si lo prefieres, tenemos otros medios de contacto:</p>
+                    <p><i class="bi bi-telephone-fill icon-contact"></i>985 88 88 88</p>
+                    <p><i class="bi bi-envelope-fill icon-contact"></i>caterinailario@hotmail.com</p>
+                    <p><i class="bi bi-geo-alt-fill icon-contact"></i>Calle Donoso Cortés, 3, Gijón</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.49944553208!2d-5.6495862237949686!3d43.53362987110804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd367c81b8161451%3A0xf63c89418123c797!2sC.%20Donoso%20Cort%C3%A9s%2C%20Gij%C3%B3n%2C%2033204%2C%20Asturias!5e0!3m2!1ses!2ses!4v1705669792140!5m2!1ses!2ses" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="map">
+            <section class="map-info">
+                <p>Servicios</p>
+                <p>Tour</p>
+                <p>Experiencias</p>
+                <p>Workshop</p>
+                <p>Talleres</p>
+            </section>
+            <section class="map-info">
+                <p>Sobre Nosotros</p>
+                <p>Compañía</p>
+                <p>Equipo</p>
+                <p>Opiniones</p>
+                <p>Trabaja con nosotros</p>
+            </section>
+            <section class="map-info">
+                <p>Feel Free</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eius impedit qui error eos voluptate nisi et in ratione rerum sed accusantium labore, officia sint odio consequuntur quos tempora.</p>
+            </section>
+        </div>
+        <div class="social-media">
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-whatsapp"></i>
+        </div>
+    </footer>
+
+    <script>
+        const phoneInputField = document.querySelector("#phone");
+        const phoneInput = window.intlTelInput(phoneInputField, {
+          utilsScript:
+            "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+    </script>
+    <script src="/scripts/main.js" type="module"></script>
+</body>
+</html>

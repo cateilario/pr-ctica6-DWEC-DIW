@@ -1,0 +1,49 @@
+@use 'variables' as v;
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(/assets/fonts/Raleway-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto';
+    src: url(/assets/fonts/NotoSerif_Condensed-MediumItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url(/assets/fonts/Raleway-Light.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+
+    &:after,
+    &:before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Raleway;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100dvh;
+}
+
+h1,
+h2,
+h3 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}

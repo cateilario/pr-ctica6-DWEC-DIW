@@ -1,0 +1,38 @@
+@use './../base/variables' as v;
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 15vh;
+    min-height: 15vh;
+}
+
+.logo {
+    width: 13rem;
+}
+
+.nav-list {
+    list-style: none;
+    font-size: 1.1rem;
+    display: flex;
+    padding: 0 2rem;
+
+    li {
+        margin-right: 3em;
+        text-transform: uppercase;
+        font-weight: 600;
+
+        a {
+            padding: 1em;
+            color: v.$dark-grey;
+            background-color: none;
+            text-decoration: none;
+        }
+    }
+}
+
+.open-menu,
+.close-menu {
+    display: none;
+}
