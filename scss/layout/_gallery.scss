@@ -1,21 +1,22 @@
 @use './../base/variables' as v;
 
 .gallery-container {
-    max-width: 90%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    width: 100%;
+    padding: 0 4rem;
 }
 
 .img-gallery {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
     gap: 1.5rem;
 
     picture img {
         object-fit: cover;
         cursor: pointer;
+        display: block;
+        width: 100%;
 
         &:hover {
             transition: transform .5s ease;
