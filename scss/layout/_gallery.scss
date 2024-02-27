@@ -17,7 +17,8 @@
         cursor: pointer;
         display: block;
         width: 100%;
-
+        aspect-ratio: 1/1;
+        
         &:hover {
             transition: transform .5s ease;
             transform: scale(1.1);
